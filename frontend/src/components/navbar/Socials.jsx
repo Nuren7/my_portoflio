@@ -13,11 +13,7 @@ function Socials({href,children,className=""}) {
             text-gray-400
             transition-all
             duration-500
-            ease-in-out
-            p-2
-            hover:scale-110
-            hover:ring-2
-            hover:ring-inset
+            hover:scale-120
             ${className}
           `}>
 

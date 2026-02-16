@@ -30,7 +30,9 @@ function Navbar() {
           </Socials>
           <Socials 
             href=""
-            className="hover:text-[#0A66C2] hover:shadow-[0_0_15px_4px_rgba(59,130,246,1)]">
+            className="
+            hover:text-[#0A66C2] 
+            hover:shadow-[0_0_15px_4px_rgba(59,130,246,1)]">
             <FaLinkedin  />
           </Socials>
         </div>
