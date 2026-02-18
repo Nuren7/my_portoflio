@@ -9,7 +9,7 @@ function Logo({to,src,alt}) {
         src = {src}
         alt = {alt}
         className="
-          w-36
+          w-12 sm:w-32 lg:w-36
           h-auto
           object-contain
           transition-all

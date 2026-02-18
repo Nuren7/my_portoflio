@@ -9,11 +9,11 @@ function Socials({href,children,className=""}) {
       target='_blank'
       rel='noopener noreferrer'
         className={`
-            text-4xl
+            text:xl sm:text-2xl lg:text-4xl
             text-gray-400
             transition-all
             duration-500
-            hover:scale-120
+            hover:scale-110
             ${className}
           `}>
 
