@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <Navbar/>
-      <main className="min-h-screen w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <main className="
+            min-h-screen w-full max-w-7xl mx-auto 
+            pt-24 px-4 sm:px-6 lg:px-8">
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/> 

@@ -9,9 +9,9 @@ function Button({ to, children }) {
         flex
         font-montserrat
         font-thin
-        text-2xl
+        text-base sm:text-xl lg:text-2xl
         text-white 
-        px-4  
+        px-2 sm:px3 lg:px-4  
         transition-colors 
         duration-500
         hover:text-gray-400
