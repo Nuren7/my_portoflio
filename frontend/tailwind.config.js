@@ -10,6 +10,15 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
         outfit: ['Outfit', 'sans-serif'],
       },
+      keyframes: {
+        fadeIn: {
+          "0%": {opacity: "0"},
+          "100%": {opacity: "1"}
+        }
+      },
+      animation: {
+        fadeIn: "fadeIn 1.5 ease-in"
+      }
     },
   },
   plugins: [],
