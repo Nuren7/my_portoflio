@@ -1,8 +1,14 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom' 
 
+import ScrollFadeIn from '../components/ScrollFadeIn'
 function Home() {
+  /* const location =useLocation() */
+
   return (
+
     <section className="h-screen flex items-start">
+
       <div
         className="
           flex
@@ -10,7 +16,7 @@ function Home() {
           max-w-7xl
           mx-auto
           w-full
-          animate-fadeIn
+          animate-fade-in
         "
       >
         <img 
@@ -32,6 +38,8 @@ function Home() {
         />
       </div>
     </section>
+
+
   )
 }
 

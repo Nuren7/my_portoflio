@@ -13,7 +13,6 @@ function App() {
     <>
       <Navbar/>
 
-      <ScrollFadeIn>
       <main className="
             min-h-screen w-full max-w-7xl mx-auto 
             pt-24 px-4 sm:px-6 lg:px-8">
@@ -24,7 +23,6 @@ function App() {
           <Route path='/cv' element={<CV />}/>
         </Routes>
       </main>
-    </ScrollFadeIn>
     </>
   )
 }

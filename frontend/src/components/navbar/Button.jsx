@@ -7,7 +7,7 @@ function Button({ to, children }) {
       to={to}
       className="
         flex
-        font-montserratfont-thin
+        font-montserrat font-thin
         text-base sm:text-xl lg:text-2xl
         text-gray-300 
         px-2 sm:px3 lg:px-4  
