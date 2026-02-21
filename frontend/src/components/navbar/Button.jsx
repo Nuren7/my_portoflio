@@ -7,15 +7,12 @@ function Button({ to, children }) {
       to={to}
       className="
         flex
-        font-montserrat
-        font-thin
+        font-montserrat font-thin
         text-base sm:text-xl lg:text-2xl
-        text-white 
+        text-gray-300 
         px-2 sm:px3 lg:px-4  
-        transition-colors 
-        duration-500
-        hover:text-gray-400
-        hover:opacity-80
+        transition-colors duration-500
+        hover:text-gray-400 hover:opacity-80
       ">
       {children}
     </Link>
