@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
+/* Global animation*/
+
 @theme {
-  --animate-fade-in: fadeIn 1.5s ease-out forwards;
+  --animate-fade-in: fadeIn 1.5s ease-in-out forwards;
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -13,7 +15,56 @@
     
   }
 }
+/* Slide in down to up */
+@theme {
+  --animate-slide-In-Down: slide-In-Down 1s ease-in-out forwards;
+  @keyframes slide-In-Down {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+  }
+}
 
+/* Slide left to right */
+@theme {
+  --animate-slide-In-Left: slide-In-Left 1s ease-in-out forwards;
+  @keyframes slide-In-Left {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0  ;
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+  }
+}
+
+/* Slide right to left */
+@theme {
+  --animate-slide-In-Right: slide-In-Right 1s ease-in-out forwards;
+  @keyframes slide-In-Right {
+      0% {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+  }
+}
+
+
+
+
+
+/* Global fonts families*/
 @theme {
         --montserrat: ['Montserrat', 'sans-serif'],
         --outfit: ['Outfit', 'sans-serif'],
