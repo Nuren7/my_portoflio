@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 function Logo({to,src,alt}) {
   return (
-    <Link to= {to} className='flex justify-start items-center group'>
-
+    <div className='w-12 sm:w-32 lg:w-36'>
+    <Link to= {to} className='inline-flex items-center group'>
+      
       <img  
         src = {src}
         alt = {alt}
         className="
-          w-12 sm:w-32 lg:w-36
           h-auto
           object-contain
           transition-all
@@ -18,8 +18,9 @@ function Logo({to,src,alt}) {
           group-hover:opacity-60
         "> 
       </img>
-
+    
     </Link>
+    </div>
   )
 }
 

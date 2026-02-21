@@ -6,7 +6,6 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import CV from "./pages/CV"
-import ScrollFadeIn from './components/ScrollFadeIn'
 
 function App() {
   return (

@@ -35,8 +35,8 @@
   --animate-slide-In-Left: slide-In-Left 1s ease-in-out forwards;
   @keyframes slide-In-Left {
       0% {
-        transform: translateX(-100%);
-        opacity: 0  ;
+        transform: translateX(-35%);
+        opacity: 0;
       }
       100% {
         opacity: 1;
@@ -50,7 +50,7 @@
   --animate-slide-In-Right: slide-In-Right 1s ease-in-out forwards;
   @keyframes slide-In-Right {
       0% {
-        transform: translateX(100%);
+        transform: translateX(35%);
         opacity: 0;
       }
       100% {
