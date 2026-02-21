@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
       <nav className={`
-          top-0 left-0
+          fixed top-0 left-0
           bg-black w-full
           grid grid-cols-3
           items-center 
