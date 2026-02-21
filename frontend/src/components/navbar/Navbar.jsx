@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
       <nav className={`
-          top-0 left-0
+          fixed top-0 left-0
           bg-black w-full
           grid grid-cols-3 
           items-center 
@@ -40,11 +40,10 @@ function Navbar() {
   
           <Logo to="/" src="/my_logo.png" alt="my_logo" />
 
-        <ul 
-        className="
-          flex justify-center 
-          gap-1 sm:gap-2 lg:gap-4 
-          list-none">
+        <ul className="
+        flex justify-center 
+        gap-1 sm:gap-2 lg:gap-4 
+        list-none">
           <li><Button to="/cv">CV</Button></li>
           <li><Button to="/portfolio">portfolio</Button></li>
           <li><Button to="/about">about</Button></li>
