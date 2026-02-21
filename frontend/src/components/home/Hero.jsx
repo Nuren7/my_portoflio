@@ -1,38 +1,33 @@
-import React from 'react'
+import React from 'react';
 
 function Hero() {
   return (
-     <section className="h-screen flex items-start">
+    <section className="relative flex justify-center px-4 mt-[-72px]">
+      <div className="relative mx-auto w-full max-w-7xl border-b-2 border-gray-400 shadow-[0_6px_3px_-5px_rgba(0,0,0,0.4)] flex justify-center">
 
-      <div
-        className="
-          flex
-          items-center
-          max-w-7xl
-          mx-auto
-          w-full
-        "
-      >
-        <img 
-          className="-translate-y-6 translate-x-7 h-30 animate-slide-In-Left"
-          src="cybersecurity_button.png" 
-          alt="cybersecurity" 
+        {/* Left decorative image */}
+        <img
+          src="cybersecurity_button.png"
+          alt="cybersecurity"
+          className="absolute left-0 bottom-[10%] w-[20%] max-w-[150px] z-10 animate-slide-In-Left"
         />
 
-        <img 
-          className="-translate-y-20 -translate-x-7 h-137.5 animate-slide-In-Down"
-          src="img_of_me2.png" 
-          alt="hero_img" 
+        {/* Center image */}
+        <img
+          src="img_of_me2.png"
+          alt="hero_img"
+          className="relative w-[50%] max-w-[600px] z-20 animate-slide-In-Down"
         />
 
-        <img 
-          className="translate-y-2 -translate-x-11 h-30 animate-slide-In-Right" 
-          src="coder_button.png" 
+        <img
+          src="coder_button.png"
           alt="coder_button"
+          className="absolute right-0 bottom-[10%] w-[20%] max-w-[150px] z-10 animate-slide-In-Right"
         />
+
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
