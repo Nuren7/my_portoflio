@@ -29,21 +29,22 @@ function Navbar() {
       <nav className={`
           fixed top-0 left-0
           bg-black w-full
-          grid grid-cols-3 
+          grid grid-cols-3
           items-center 
           px-4 sm:px-8 lg:px-16 
           p-6 
           max-h-24
-          transition-all duration-700 ease-out
+          transition-all duration-500 ease-out
           ${show ? "translate-y-0 opacity-100" : "blur-xl -translate-y-full opacity-0"}     
           `}>
-  
-          <Logo to="/" src="/my_logo.png" alt="my_logo" />
-
-        <ul className="
-        flex justify-center 
-        gap-1 sm:gap-2 lg:gap-4 
-        list-none">
+          
+        <Logo to="/" src="/my_logo.png" alt="my_logo" />
+        
+        <ul 
+        className="
+          flex justify-center 
+          gap-1 sm:gap-2 lg:gap-4 
+          list-none">
           <li><Button to="/cv">CV</Button></li>
           <li><Button to="/portfolio">portfolio</Button></li>
           <li><Button to="/about">about</Button></li>
